@@ -1,0 +1,6 @@
+Model,ROC-AUC,PR-AUC,Recall,Precision,F1,Best params
+Logistic Regression,0.8726,0.6986,0.8018,0.4541,0.5798,{'clf__C': 0.1}
+XGBoost,0.8585,0.6713,0.4775,0.6795,0.5608,"{'clf__learning_rate': 0.05, 'clf__max_depth': 3, 'clf__n_estimators': 200}"
+Gradient Boosting,0.857,0.6561,0.5225,0.6667,0.5859,"{'clf__learning_rate': 0.05, 'clf__n_estimators': 200}"
+Random Forest,0.8503,0.5984,0.4324,0.6761,0.5275,"{'clf__max_depth': 10, 'clf__n_estimators': 400}"
+SVM,0.8331,0.5811,0.6036,0.5076,0.5514,"{'clf__C': 0.5, 'clf__kernel': 'rbf'}"

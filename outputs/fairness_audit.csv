@@ -1,0 +1,11 @@
+Attribute,Group,N,Positives,Recall,FNR
+sex,Female,214,40,0.825,0.175
+sex,Male,386,71,0.789,0.211
+ethnicity,Asian,58,13,0.692,0.308
+ethnicity,Black,47,8,0.75,0.25
+ethnicity,Mixed,41,8,0.875,0.125
+ethnicity,Other,20,2,1.0,0.0
+ethnicity,White,434,80,0.812,0.188
+age_band,12-15,151,28,0.786,0.214
+age_band,16-18,126,25,0.72,0.28
+age_band,19-25,323,58,0.845,0.155
