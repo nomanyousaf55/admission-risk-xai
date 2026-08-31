@@ -1,0 +1,16 @@
+# Dependencies for the Explainable AI Admission Risk Decision Support System.
+#
+# Minimum versions are specified rather than exact pins so that installation
+# succeeds on a range of Python versions. The bundled trained models load
+# correctly with these versions; if a model ever fails to load, retrain with
+#   python src/model_training.py
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+xgboost>=2.0
+imbalanced-learn>=0.12
+shap>=0.45
+streamlit>=1.42
+plotly>=5.20
+matplotlib>=3.8
+joblib>=1.3
